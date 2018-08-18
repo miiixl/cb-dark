@@ -35,7 +35,7 @@
         overflow: hidden
     }
     #user_information a {
-        color: #4a79f8
+        color: #4a79f8 !important;
     }
     #user_information .white {
         color: #fff !important;
@@ -220,7 +220,7 @@
     }
     legend {
         display: block;
-        color: #0c6a93;
+        color: #fff !important;
         font-size: 1.266em;
         font-family: ubuntumedium, Arial, Helvetica, sans-serif;
         font-weight: 400;
@@ -280,6 +280,7 @@
     }
     .logo-zone strong {
         display: block;
+        color: #fff !important;
         padding: 0 0 0 17px;
         font: .833em ubuntumedium, Arial, Helvetica, sans-serif
     }
@@ -1195,6 +1196,7 @@
         font-size: 13px
     }
     .info-user {
+        color: #fff !important;
         border: 1px solid #000 !important;
         border-radius: 0px 0px 0 0 !important;
         -webkit-border-radius: 0px 0px 0 0 !important;
@@ -1334,20 +1336,20 @@
         font-family: ubuntumedium, Arial, Helvetica, sans-serif;
         font-size: 14px;
         padding-top: 2px;
-        text-shadow: 1px 1px 0 #fff
+        text-shadow: 0px 0px 0 #fff !important;
     }
     #broadcaster_rating>.btn_left {
         position: relative;
         left: 3px;
-        background: url(https://ssl-ccstatic.highwebmedia.com/images/btn-sprites2.gif?ac5eba7d5cf3) no-repeat left -126px
+        background: #c8c8c8 !important
     }
     #broadcaster_rating>.btn_right {
         position: relative;
         left: -3px;
-        background: url(https://ssl-ccstatic.highwebmedia.com/images/btn-sprites2.gif?ac5eba7d5cf3) no-repeat right -126px
+        background: #c8c8c8 !important;
     }
     #broadcaster_rating>.btn_middle {
-        background: url(https://ssl-ccstatic.highwebmedia.com/images/btn-sprites2.gif?ac5eba7d5cf3) no-repeat center -126px
+        background: #c8c8c8 !important;
     }
     #broadcaster_rating .thumbs_up_text {
         position: relative;
@@ -1488,6 +1490,19 @@
         min-height: 288px;
         overflow: auto
     }
+    .bottompanel a,
+    .token_stats a,
+    .share_and_earn a,
+    .apps_and_bots a,
+    .bio a {
+        color: #4a79f8 !important;
+    }
+    .share_and_earn strong {
+        color: #fff !important;
+    }
+    .bottompanel h2{
+        color: #fff !important;
+    }
     .fixedheightbottompanel {
         height: 288px
     }
@@ -1519,6 +1534,13 @@
         font: .833em/1.2em 'UbuntuRegular', Arial, Helvetica, sans-serif;
         text-align: center;
         background: #151515 !important;
+    }
+    .footer-holder h2 {
+        font-size: 1.2em !important;
+        color: #fff !important;
+    }
+    .footer-holder a {
+        color: #4a79f8 !important;
     }
     .footer-holder p {
         margin: 0 0 8px
@@ -1564,7 +1586,7 @@
     .content_body h1 {
         margin: 0 0 14px;
         font: 1.733em/1.0769em 'UbuntuMedium', Arial, Helvetica, sans-serif;
-        color: #f47321
+        color: #fff !important;
     }
     .content_body h2 {
         margin: 20px 0 14px;
@@ -1613,7 +1635,9 @@
         width: 375px
     }
     #tabs_content_container h1 {
-        font: 1.2em/1.4em 'UbuntuMedium', Arial, Helvetica, sans-serif;
+        text-align: center !important;
+        color: #fff !important;
+        font: 1.4em/1.6em 'UbuntuMedium', Arial, Helvetica, sans-serif !important;
         margin-bottom: 20px
     }
     .photopages .image_container {
@@ -1938,9 +1962,9 @@
         margin-top: 15px;
         display: inline-block;
         border: 1px solid #cecece;
-        border-radius: 6px;
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px
+        border-radius: 0px !important;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
     }
     .compare_body {
         width: 360px;
@@ -2413,7 +2437,8 @@
         border: 1px solid #ccc;
         color: #222;
         border-collapse: collapse;
-        margin-bottom: 30px
+        margin-bottom: 30px;
+        background-color: #d9d9d9 !important;
     }
     .data_table th,
     .data_table td {
@@ -3112,7 +3137,7 @@
         height: 300px
     }
     .endless_page_template h2 {
-        color: #0a5a83 !important;
+        color: #ffffff !important;
         font: 1.166em/1.142em 'UbuntuMedium', Arial, Helvetica, sans-serif
     }
     #allfree-iframe-body {
@@ -3571,7 +3596,7 @@
         font: 1em/1.3em 'UbuntuMedium', Arial, Helvetica, sans-serif;
         padding: 0;
         margin: 0 4px 6px 0;
-        color: #494949
+        color: #fff !important;
     }
     .bio form th label {
         min-width: 130px
@@ -3638,7 +3663,7 @@
         color: #fff;
         width: auto;
         font: 1.16em/1.0em 'UbuntuMedium', Arial, Helvetica, sans-serif;
-        background: #f47321 !important;
+        background: #4a79f8 !important;
         height: 28px;
         padding: 0 30px 2px 15px;
         border: 1px solid #b1b1b1;
@@ -3647,8 +3672,8 @@
         -moz-border-radius: 0px !important;
     }
     form .button:hover {
-        background-color: #ff6300;
-        text-decoration: underline;
+        background-color: #7499ff !important;
+        text-decoration: none !important;
         cursor: pointer
     }
     form ul {
