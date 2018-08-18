@@ -1,3 +1,5 @@
+*to anyone looking to edit - please excuse the spaghetti css, I apologise in advance*
+
 # CB Dark
 
 CB Dark is a dark theme for chaturbate which is brought to you by miiixl!
